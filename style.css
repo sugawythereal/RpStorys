@@ -36,7 +36,6 @@ body {
     
   }
 
-
   
   .button-container {
     display: flex;
@@ -65,8 +64,6 @@ body {
     height: 100px;
   }
 
-
-
   .made-by {
     font-size: 14px;
     margin-top: 20px;
@@ -81,3 +78,4 @@ body {
       margin-left: 200px;
       margin-right: 200px;
   }
+  
