@@ -1,0 +1,83 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .landing-page {
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc
+  }
+
+  .image-box {
+    width: auto;
+    height: auto;
+    margin: 20px auto;
+    border: none;
+    outline: none;
+    display: block;
+    max-width: 100%;
+  }
+  
+  p {
+    font-size: 23px;
+    margin-bottom: 30px;
+    
+  }
+
+
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .button {
+    color: white; /* Updated */
+    background-color: #000000; /* Updated */
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+  }
+  
+  .button:hover {
+    color: black; /* Updated */
+    background-color: white; /* Updated */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+
+  .button img {
+    width: 100px;
+    height: 100px;
+  }
+
+
+
+  .made-by {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+
+  .origem{
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-left: 200px;
+      margin-right: 200px;
+  }
